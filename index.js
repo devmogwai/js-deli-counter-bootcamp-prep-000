@@ -23,7 +23,7 @@ function currentLine (katzDeliLine) {
     return 'The line is currently empty.'
   }
   for (let i=1; i<2; i++){
-    katzDeliLine[i] = i + '. ' + katzDeliLine[i] + ' '
+    katzDeliLine[i-1] = i + '. ' + katzDeliLine[i] + ' '
   }
   console.log( `The line is currently: ${katzDeliLine}`)
 }
