@@ -26,6 +26,6 @@ function currentLine (katzDeliLine) {
   for (let i=1; i<length; i++){
     katzDeliLine[i-1] = ' '+ i + '. ' + katzDeliLine[i-1]
   }
-  console.log( `The line is currently: ${katzDeliLine}`)
+ return ( `The line is currently: ${katzDeliLine}`)
 }
 currentLine (['george', 'anne'])
